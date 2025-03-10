@@ -1,50 +1,83 @@
-/* Apply a background to the entire page */
+/* Apply background and default styles to page */
 body {
-    background-color: rgb(180, 136, 83);
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #ebd18f;
     color: #333;
 }
-
-figure img {
-    width: 250px; height: 185;
-}
-
-figcaption {
-    color: rgb(82, 81, 81); 
-    font-size: 12px;
-}
-
 /* Style the header */
 header {
-    background: #333;
+    background-color: #443627;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 20px; /* Makes sure enough space around text */
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Style buttons */
-button {
-    background: #007bff;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    cursor: pointer;
-    font-size: 16px;
-    border-radius: 5px;
-    transition: background 0.3s;
-}
-
-button:hover {
-    background: #0056b3;
-}
-
-/* Container for content */
+/* Container for content */ 
 .container {
-    width: 80%;
+    max-width: 800px;
     margin: 20px auto;
-    background: white;
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #eee6bb;
     border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style headers */
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #443627;
+}
+
+/* Style the horizontal rule */
+hr {
+    border: 0;
+    height: 2px;
+    background-color: #D98324;
+    margin: 20px 0; /* Add space above and below  line */
+}
+
+
+/* Style paragraphs */
+p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+    padding: 10px;
+
+}
+
+/* Add spacing to list items */
+.list-item-spacing li {
+    margin-bottom: 10px;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: row; /* Align image and text in a row */
+    align-items: center; /*
+    gap: 20px; /* Space between image and text */
+    max-width: 100%; /* Ensures the container doesn't overflow */
+}
+
+
+/* Style images inside figure elements */
+figure img {
+    width: 250px;
+    height: 185px;
+    display: block;
+    margin: 10px auto;
+    border: 3px solid #D98324; /* Adds a border to image */
+    border-radius: 5px;
+}
+
+/* Style figure captions */
+figcaption {
+    color: #525151;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 5px;
 }
