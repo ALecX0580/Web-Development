@@ -1,6 +1,19 @@
-h1, h2 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+/*Header Style*/
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
 }
-p {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+/*Body Style*/
+body h2, h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    background-color: #ebebebed;
+    color: #2f2f2f;
+    padding: 20px;
+}
+/*Paragraph Style*/
